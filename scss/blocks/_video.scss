@@ -1,0 +1,253 @@
+.video__content {
+  max-width: 1440px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.video__text-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.video__heading {
+  font-family: "Forum";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  color: rgba(157, 134, 101, 1);
+  margin: 0;
+  max-width: 605px;
+}
+
+.video__text {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  max-width: 720px;
+}
+
+.video__little-frames {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.video__little-video-frames {
+  margin: 10px;
+}
+
+@include breakpoint-down(1024px) {
+  .video__content {
+    max-width: 984px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .video__text-content {
+    margin-bottom: 40px;
+  }
+
+  .video__heading {
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    color: rgba(157, 134, 101, 1);
+    margin: 0;
+    max-width: 398px;
+  }
+  
+  .video__text {
+    display: none;
+  }
+  
+  .video__little-frames {
+    max-width: 983px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .video__little-video-frames {
+    max-width: 300px;
+  }
+}
+
+@include breakpoint-down(990px) {
+  .video__content {
+    max-width: 984px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .video__text-content {
+    margin-bottom: 20px;
+  }
+
+  .video__heading {
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    color: rgba(157, 134, 101, 1);
+    margin: 0;
+    max-width: 344px;
+  }
+  
+  .video__text {
+    display: none;
+  }
+  
+  .video__little-frames {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .video__little-video-frames {
+    max-width: 354px;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@include breakpoint-down(768px) {
+  .video__content {
+    max-width: 728px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .video__text-content {
+    margin-bottom: 20px;
+  }
+
+  .video__heading {
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    color: rgba(157, 134, 101, 1);
+    margin: 0;
+    max-width: 344px;
+  }
+  
+  .video__text {
+    display: none;
+  }
+  
+  .video__little-frames {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .video__little-video-frames {
+    max-width: 354px;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@include breakpoint-down(670px) {
+  .video__content {
+    max-width: 450px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .video__text-content {
+    margin-bottom: 20px;
+  }
+
+  .video__heading {
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    color: rgba(157, 134, 101, 1);
+    margin: 0;
+    max-width: 280px;
+  }
+  
+  .video__text {
+    display: none;
+  }
+  
+  .video__little-frames {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .video__little-video-frames {
+    max-width: 200px;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@include breakpoint-down(480px) {
+  .video__content {
+    max-width: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .video__text-content {
+    margin-bottom: 20px;
+  }
+
+  .video__heading {
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    color: rgba(157, 134, 101, 1);
+    margin: 0;
+    max-width: 280px;
+  }
+  
+  .video__text {
+    display: none;
+  }
+  
+  .video__little-frames {
+    max-width: 100%;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .video__little-video-frames {
+    max-width: 200px;
+  }
+
+  .none {
+    display: none;
+  }
+}
